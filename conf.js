@@ -12,20 +12,6 @@ jsproxy_config({
 
   // 节点配置
   node_map: {
-    'demo-hk': {
-      label: '演示服务-香港节点',
-      lines: {
-        // 主机:权重
-        'node-aliyun-hk-1.etherdream.com:8443': 1,
-        'node-aliyun-hk-2.etherdream.com:8443': 2,
-      }
-    },
-    'demo-sg': {
-      label: '演示服务-新加坡节点',
-      lines: {
-        'node-aliyun-sg.etherdream.com:8443': 1,
-      },
-    },
     'mysite': {
       label: '当前站点',
       lines: {
@@ -50,20 +36,38 @@ jsproxy_config({
         'node3.jdjwzxapi.top': 1,
       }
     },
+    'jdjwzx233node-z1': {
+      label: 'jdjwzx233节点支线1',
+      lines: {
+        'node1.jdjwzx233.cf': 1,
+      }
+    },
+    'jdjwzx233node-z2': {
+      label: 'jdjwzx233节点支线2',
+      lines: {
+        'node2.jdjwzx233.cf': 1,
+      }
+    },
+    'jdjwzx233node-z3': {
+      label: 'jdjwzx233节点支线3',
+      lines: {
+        'node3.jdjwzx233.cf': 1,
+      }
+    },
     'jdjwzx233nodes-b1': {
-      label: 'jdjwzx233节点(备用1)(如果上面的节点都无法使用,就选择我)',
+      label: 'jdjwzx233节点(备用1)(如果上面的普通节点都无法使用,就选择我)',
       lines: {
         'node1.jdjwzx233.tk': 1,
       }
     },
     'jdjwzx233nodes-b2': {
-      label: 'jdjwzx233节点(备用2)(如果上面的节点都无法使用,就选择我)',
+      label: 'jdjwzx233节点(备用2)(如果上面的普通节点都无法使用,就选择我)',
       lines: {
         'node2.jdjwzx233.tk': 1,
       }
     },
     'jdjwzx233nodes-b3': {
-      label: 'jdjwzx233节点(备用3)(如果上面的节点都无法使用,就选择我)',
+      label: 'jdjwzx233节点(备用3)(如果上面的普通节点都无法使用,就选择我)',
       lines: {
         'node3.jdjwzx233.tk': 1,
       }
@@ -82,7 +86,21 @@ jsproxy_config({
         'b.lulu.workers.dev': 1,
         'b.jsproxy.workers.dev': 1,
       }
-    }
+    },
+    'demo-hk': {
+      label: '演示服务-香港节点',
+      lines: {
+        // 主机:权重
+        'node-aliyun-hk-1.etherdream.com:8443': 1,
+        'node-aliyun-hk-2.etherdream.com:8443': 2,
+      }
+    },
+    'demo-sg': {
+      label: '演示服务-新加坡节点',
+      lines: {
+        'node-aliyun-sg.etherdream.com:8443': 1,
+      },
+    },
   },
 
   /**
