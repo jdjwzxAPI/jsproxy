@@ -141,7 +141,7 @@ jsproxy_config({
       replace: 'https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_92x30dp.png'
     },
     'https://www.pornhub.com/': {
-      content: '你很邢啊。。。《中华人民共和国计算机信息网络国际联网管理暂行规定》<p>第六条 计算机信息网络直接进行国际联网，必须使用邮电部国家公用电信网提供的国际出入口信道。任何单位和个人不得自行建立或者使用其他信道进行国际联网。</p><p>第十四条　违反本规定第六条的，由公安机关责令停止联网，给予警告，可以并处15000元以下的罚款；有违法所得的，没收违法所得。</p>'
+      replace: 'http://www.gov.cn/zhengce/2020-12/26/content_5574802.htm'
       //redir: 'https://php.net/'
     },
     'http://haha.com/': {
