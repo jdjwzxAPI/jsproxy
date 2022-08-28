@@ -141,7 +141,7 @@ jsproxy_config({
       replace: 'https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_92x30dp.png'
     },
     'https://www.pornhub.com/': {
-      replace: 'http://www.gov.cn/zhengce/2020-12/26/content_5574802.htm'
+      redir: 'http://www.gov.cn/zhengce/2020-12/26/content_5574802.htm'
       //redir: 'https://php.net/'
     },
     'http://haha.com/': {
