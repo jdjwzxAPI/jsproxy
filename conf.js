@@ -32,19 +32,39 @@ jsproxy_config({
         [location.host]: 1,
       }
     },
-    'jdjwzx233nodes': {
-      label: 'jdjwzx233节点',
+    'jdjwzx233node1': {
+      label: 'jdjwzx233节点1',
       lines: {
         'node1.jdjwzxapi.top': 1,
+      }
+    },
+    'jdjwzx233node2': {
+      label: 'jdjwzx233节点2',
+      lines: {
         'node2.jdjwzxapi.top': 1,
+      }
+    },
+    'jdjwzx233node3': {
+      label: 'jdjwzx233节点3',
+      lines: {
         'node3.jdjwzxapi.top': 1,
       }
     },
-    'jdjwzx233nodes-b': {
-      label: 'jdjwzx233节点(备用)(如果上面的节点都无法使用,就选择我)',
+    'jdjwzx233nodes-b1': {
+      label: 'jdjwzx233节点(备用1)(如果上面的节点都无法使用,就选择我)',
       lines: {
         'node1.jdjwzx233.tk': 1,
+      }
+    },
+    'jdjwzx233nodes-b2': {
+      label: 'jdjwzx233节点(备用2)(如果上面的节点都无法使用,就选择我)',
+      lines: {
         'node2.jdjwzx233.tk': 1,
+      }
+    },
+    'jdjwzx233nodes-b3': {
+      label: 'jdjwzx233节点(备用3)(如果上面的节点都无法使用,就选择我)',
+      lines: {
         'node3.jdjwzx233.tk': 1,
       }
     },
