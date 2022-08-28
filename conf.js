@@ -2,7 +2,7 @@ jsproxy_config({
   // 当前配置的版本（记录在日志中，用于排查问题）
   // 每次修改配置，该值需要增加，否则不会生效。
   // 默认每隔 5 分钟自动下载配置，若想立即验证，可通过隐私模式访问。
-  ver: '110',
+  ver: '120',
 
   // 通过 CDN 加速常用网站的静态资源（实验中）
   static_boost: {
@@ -24,19 +24,19 @@ jsproxy_config({
       label: '演示服务-新加坡节点',
       lines: {
         'node-aliyun-sg.etherdream.com:8443': 1,
-      },
+      }
     },
     'mysite': {
       label: '当前站点',
       lines: {
         [location.host]: 1,
-      },
+      }
     },
     'bf-mysite': {
       label: 'jdjwzx233节点',
       lines: {
         'dns.jdjwzxapi.top': 1,
-      },
+      }
     },
     'bf-cfworker': {
       label: '备用节点(免费)(不稳定,慎用)'
@@ -47,7 +47,7 @@ jsproxy_config({
         'b.hehe.workers.dev': 1,
         'b.lulu.workers.dev': 1,
         'b.jsproxy.workers.dev': 1,
-      },
+      }
     },
     // 该节点用于加载大体积的静态资源
     'cfworker': {
