@@ -32,12 +32,28 @@ jsproxy_config({
         [location.host]: 1,
       }
     },
+    'jdjwzx233nodes': {
+      label: 'jdjwzx233节点',
+      lines: {
+        'node1.jdjwzxapi.top': 1,
+        'node2.jdjwzxapi.top': 1,
+        'node3.jdjwzxapi.top': 1,
+      }
+    },
+    'jdjwzx233nodes-b': {
+      label: 'jdjwzx233节点(备用)(如果上面的节点都无法使用,就选择我)',
+      lines: {
+        'node1.jdjwzxapi.eu.org': 1,
+        'node2.jdjwzxapi.eu.org': 1,
+        'node3.jdjwzxapi.eu.org': 1,
+      }
+    },
     // 该节点用于加载大体积的静态资源
     'cfworker': {
       label: '加速节点(不稳定)(慎用)(可能导致您的设备进入网站黑名单)',
       lines: {
         // 收费版（高权重）
-        'node-cfworker-2.etherdream.com': 4,
+        //'node-cfworker-2.etherdream.com': 4,
 
         // 免费版（低权重，分摊一些成本）
         // 每个账号每天 10 万次免费请求，但有频率限制
