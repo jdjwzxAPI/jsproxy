@@ -43,9 +43,9 @@ jsproxy_config({
     'jdjwzx233nodes-b': {
       label: 'jdjwzx233节点(备用)(如果上面的节点都无法使用,就选择我)',
       lines: {
-        'node1.jdjwzxapi.eu.org': 1,
-        'node2.jdjwzxapi.eu.org': 1,
-        'node3.jdjwzxapi.eu.org': 1,
+        'node1.jdjwzx233.tk': 1,
+        'node2.jdjwzx233.tk': 1,
+        'node3.jdjwzx233.tk': 1,
       }
     },
     // 该节点用于加载大体积的静态资源
