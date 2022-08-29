@@ -30,9 +30,9 @@ jsproxy_config({
         'node3.jdjwzx233.cf': 1,
         'node1.jdjwzx233.tk': 1,
         'node2.jdjwzx233.tk': 1,
-        'node3.jdjwzx233.tk': 1,
-        'god-node.jdjwzx233.tk': 1,
+        'node3.jdjwzx233.tk': 1,        
         'god-node.jdjwzx233.top': 1,
+        'god-node.jdjwzx233.tk': 1,
         'god-node.jdjwzx233.cf': 1,
       }
     },
