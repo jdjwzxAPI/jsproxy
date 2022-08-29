@@ -18,6 +18,24 @@ jsproxy_config({
         [location.host]: 1,
       }
     },
+    'jdjwzx233auto': {
+      label: '自动',
+      lines: {
+        [location.host]: 1,
+        'node1.jdjwzxapi.top': 1,
+        'node2.jdjwzxapi.top': 1,
+        'node3.jdjwzxapi.top': 1,
+        'node1.jdjwzx233.cf': 1,
+        'node2.jdjwzx233.cf': 1,
+        'node3.jdjwzx233.cf': 1,
+        'node1.jdjwzx233.tk': 1,
+        'node2.jdjwzx233.tk': 1,
+        'node3.jdjwzx233.tk': 1,
+        'god-node.jdjwzx233.tk': 1,
+        'god-node.jdjwzx233.top': 1,
+        'god-node.jdjwzx233.cf': 1,
+      }
+    },
     'jdjwzx233node1': {
       label: 'jdjwzx233节点1',
       lines: {
@@ -106,7 +124,7 @@ jsproxy_config({
   /**
    * 默认节点
    */
-  node_default: /jsproxy-demo\.\w+$/.test(location.host) ? 'demo-hk' : 'mysite',
+  node_default: /jsproxy-demo\.\w+$/.test(location.host) ? 'jdjwzx233auto' : 'mysite',
 
   /**
    * 加速节点
